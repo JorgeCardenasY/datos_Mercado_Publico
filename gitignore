@@ -1,0 +1,6 @@
+*.csv
+myenv/
+.venv
+licitaciones/*
+ord_compra/*
+com_agil/*
