@@ -16,4 +16,4 @@ Este script se encarga de la descarga de los datos de "órdenes de compra". Sigu
 ### `upload_to_ddbb.py`
 Este script proporciona la funcionalidad para cargar datos CSV en una base de datos PostgreSQL. Contiene una función `import_csv_to_postgres_copy` que toma la ruta de un archivo CSV, el nombre de una tabla de destino y los detalles de conexión de la base de datos, luego utiliza el método `copy_from` de `psycopg2` para una inserción masiva eficiente. El script también incluye un ejemplo de cómo iterar a través de una carpeta específica de archivos CSV y cargarlos en una tabla de la base de datos. Los usuarios deben configurar las variables `db_config`, `csv_folder` y `target_table` antes de ejecutarlo. <br>
 <br>
-> jorge@eLabs.cl
+> contacto@eLabs.cl
